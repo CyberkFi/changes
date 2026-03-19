@@ -8,14 +8,14 @@ Khi có IP mới cần tạo task cho các bộ phận, thực hiện flow sau.
 
 ## Bước 1: Đọc IP
 
-Đọc file IP gốc tại `internal-ws/improvement/IP-XXX-doing.md`. Lấy:
+Đọc file IP gốc tại `changes/improvement/IP-XXX-doing.md`. Lấy:
 - Mục tiêu IP
 - Bảng Execution Plan (nếu có)
 - Danh sách bộ phận tham gia + người phụ trách
 
 ## Bước 2: Đọc playbook
 
-Đọc `internal-ws/team-playbook.md` để hiểu:
+Đọc `changes/team-playbook.md` để hiểu:
 - Điểm mạnh / hạn chế của từng bộ phận
 - Cách giao việc phù hợp (đặc biệt BST vs DEV vs MKT)
 - Quy tắc viết task
@@ -35,10 +35,10 @@ Khi có IP mới cần tạo task cho các bộ phận, thực hiện flow sau.
 Với mỗi bộ phận trong IP, tạo file:
 
 ```
-internal-ws/tasks/IP-XXX/IP-XXX-[DEPT].md
+changes/tasks/IP-XXX/IP-XXX-[DEPT].md
 ```
 
-Dùng template tại `internal-ws/workflows/task-template.md`.
+Dùng template tại `changes/workflows/task-template.md`.
 
 **Nguyên tắc viết task:**
 
@@ -70,7 +70,7 @@ Trước khi lưu, kiểm tra mỗi task file:
 Sau khi tạo xong tất cả task files:
 
 ```bash
-cd /Users/anderson/Desktop/works/internal-ws/neo-task-assign/scripts
+cd /Users/anderson/Desktop/works/changes/neo-task-assign/scripts
 bun run assign.ts IP-XXX-DEV DEV
 bun run assign.ts IP-XXX-DES DES
 bun run assign.ts IP-XXX-QA QA

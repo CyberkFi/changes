@@ -64,7 +64,7 @@ tags: [cyberk-way]
 
 ### Bước 3 — Thêm vào Scheduler CSV
 
-> Thay vì viết "Lịch theo dõi" vào từng IP, tất cả lịch hành động được ghi vào file **`scheduler.csv`** tại root `internal-ws/`.
+> Thay vì viết "Lịch theo dõi" vào từng IP, tất cả lịch hành động được ghi vào file **`scheduler.csv`** tại root `changes/`.
 
 1. Mở file `scheduler.csv`.
 2. Thêm các dòng theo format:

@@ -12,7 +12,7 @@ import { resolve, relative } from "node:path";
 const WORKSPACE = "/Users/anderson/Desktop/works";
 const CHANNELS_PATH = resolve(WORKSPACE, "tools/telegram-notify/src/channels.json");
 const ENV_PATH = resolve(WORKSPACE, "NEO/.env");
-const TASKS_DIR = resolve(WORKSPACE, "internal-ws/tasks");
+const TASKS_DIR = resolve(WORKSPACE, "changes/tasks");
 
 const REPO_MAP: Record<string, string> = {
   "internal-ws": "https://github.com/CyberkFi/internal-ws/blob/main",

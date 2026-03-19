@@ -10,7 +10,7 @@ description: Giao việc và follow-up tiến độ qua Telegram — script tự
 Khi Anderson yêu cầu giao việc, chạy script:
 
 ```bash
-cd /Users/anderson/Desktop/works/internal-ws/neo-task-assign/scripts
+cd /Users/anderson/Desktop/works/changes/neo-task-assign/scripts
 bun run assign.ts <TASK_ID> <CHANNEL> [--dry-run]
 ```
 
@@ -36,7 +36,7 @@ Không cần AI soạn tin nhắn — script format sẵn.
 Khi cần kiểm tra tiến độ task, chạy script:
 
 ```bash
-cd /Users/anderson/Desktop/works/internal-ws/neo-task-assign/scripts
+cd /Users/anderson/Desktop/works/changes/neo-task-assign/scripts
 bun run follow.ts <TASK_ID|IP_ID> [CHANNEL] [--dry-run]
 ```
 

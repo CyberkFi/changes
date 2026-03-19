@@ -41,12 +41,12 @@ function findTaskFile(taskId: string): string | null {
   if (!parts) return null;
   const ipId = parts[1];
   // Flat file: tasks/IP-026-DES.md
-  const flatPath = resolve(WORKSPACE, `internal-ws/tasks/${taskId}.md`);
+  const flatPath = resolve(WORKSPACE, `changes/tasks/${taskId}.md`);
   if (existsSync(flatPath)) return flatPath;
   // Nested: tasks/IP-027/IP-027-DES.md
-  const newPath = resolve(WORKSPACE, `internal-ws/tasks/${ipId}/${taskId}.md`);
+  const newPath = resolve(WORKSPACE, `changes/tasks/${ipId}/${taskId}.md`);
   if (existsSync(newPath)) return newPath;
-  const tasksDir = resolve(WORKSPACE, `internal-ws/tasks/${ipId}`);
+  const tasksDir = resolve(WORKSPACE, `changes/tasks/${ipId}`);
   if (!existsSync(tasksDir)) return null;
   for (const f of readdirSync(tasksDir)) {
     if (f.endsWith(".md") && !f.startsWith("IP-")) {
