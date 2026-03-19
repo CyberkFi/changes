@@ -1,0 +1,18 @@
+date,time,type,ip,task,channel,action,on_complete,status
+2026-03-18,09:00,assign,IP-027,IP-027-QA,QA,Giao task: seminar + viết bài kiểm thử AI Agentic,IP-027-QA → doing,done
+2026-03-18,09:00,assign,IP-027,IP-027-DES,DES,Giao task: seminar + viết bài thiết kế + redesign website concept,IP-027-DES → doing,done
+2026-03-18,09:00,assign,IP-027,IP-027-DEV,DEV,Giao task: seminar + viết bài quản lý dự án AI Agentic,IP-027-DEV → doing,done
+2026-03-18,09:00,assign,IP-027,IP-027-MKT,MKT,Giao task: cập nhật branding + bài viết + học SB7,IP-027-MKT → doing,done
+2026-03-18,09:00,assign,IP-003,IP-003-DEV,C-LEVEL,Giao task: Tool đồng bộ MM + tập trung hoá calendar,IP-003-DEV → doing,done
+2026-03-18,09:00,assign,IP-028,IP-028-BST,C-LEVEL,Giao task: viết bài cách Cyberk xây dựng hệ thống Agentic,IP-028-BST → doing,done
+2026-03-20,09:00,follow,IP-028,IP-028-BST,C-LEVEL,Mid-point check: outline xong chưa? cần hỗ trợ gì?,Cập nhật Execution Plan,pending
+2026-03-22,09:00,follow,IP-028,IP-028-BST,C-LEVEL,Thu kết quả: bài viết + diagrams,Cập nhật trạng thái,pending
+2026-03-22,18:00,review,IP-028,,CEO,Review bài viết Agentic Engineering của Huy,Ghi note vào Thực tế,pending
+2026-03-24,09:00,follow,IP-027,,ALL,Mid-point check: seminar đã lên lịch chưa? bài viết draft xong chưa? deadline 31/03 nhé.,Cập nhật trạng thái,pending
+2026-03-28,09:00,follow,IP-027,,ALL,Nhắc trước deadline: bài viết + slide seminar + branding update phải xong 31/03.,Cập nhật trạng thái,pending
+2026-03-31,09:00,follow,IP-027,,ALL,Hôm nay là deadline — thu kết quả toàn bộ.,Cập nhật trạng thái,pending
+2026-03-19,09:00,assign,IP-026,IP-026-DES,DES,Giao task: visual assets cho 5 trang website mới. Đọc ghi chú cuối mỗi content file.,IP-026-DES → doing,pending
+2026-03-22,09:00,follow,IP-026,IP-026-DES,DES,Nhắc giữa deadline: assets đang tiến triển thế nào? cần hỗ trợ gì? deadline 25/03 nhé.,Cập nhật trạng thái,pending
+2026-03-25,09:00,follow,IP-026,IP-026-DES,DES,Hôm nay là deadline — bạn nhớ hoàn thành visual assets nhé!,Cập nhật trạng thái,pending
+2026-03-29,09:00,assign,IP-026,IP-026-MKT,MKT,Giao task: review 5 trang website mới đã deploy. Kiểm tra nội dung + links + SEO + responsive.,IP-026-MKT → doing,pending
+2026-03-31,09:00,follow,IP-026,IP-026-MKT,MKT,Hôm nay là deadline — bạn nhớ hoàn thành review website nhé!,Cập nhật trạng thái,pending

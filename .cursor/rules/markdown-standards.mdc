@@ -1,0 +1,67 @@
+---
+description: Standards for writing Markdown files. Follow these rules for all .md files.
+globs: *.md
+---
+
+# Markdown Standards
+
+## 1. Headings
+- **Structure:** Increment levels by one (`#` -> `##` -> `###`). Do not skip levels (MD001).
+- **Style:** Use ATX style (`# Heading`) exclusively. No Setext (`===`) or Closed ATX (`# Heading #`) (MD003).
+- **Spacing:**
+  - One space after `#` (MD018).
+  - Surround headings with blank lines (one before, one after) (MD022).
+  - Start at the beginning of the line (no indentation) (MD023).
+- **Content:**
+  - No duplicate headings in the same document (MD024).
+  - Only ONE H1 (`#`) per file, at the very top (MD025, MD041).
+  - No trailing punctuation (`.`, `:`, etc.) in headings (MD026).
+  - Do not use emphasis (`**Bold**`) as a substitute for headings (MD036).
+
+## 2. Lists (Ordered & Unordered)
+- **Style:**
+  - Use consistent symbols (`*`, `-`, or `+`) for unordered lists (MD004).
+  - Use `1.` for all ordered list items (or sequential `1. 2. 3.`) (MD029).
+- **Indentation:**
+  - Indent nested items by 2 spaces (MD007).
+  - Ensure consistent indentation for same-level items (MD005).
+- **Spacing:**
+  - One space after list marker (e.g., `- Item`) (MD030).
+  - Surround lists with blank lines (MD032).
+
+## 3. Code Blocks
+- **Style:** Use Fenced Code Blocks (```) exclusively. No indented code blocks (MD046).
+- **Language:** Always specify the language (e.g., ```` ```python ````) (MD040).
+- **Spacing:** Surround code blocks with blank lines (MD031).
+- **Shell Commands:** Do not use `$` before commands unless showing output. If showing output, use `$` to distinguish command from output (MD014).
+
+## 4. Links & Images
+- **Syntax:**
+  - No reversed syntax `(text)[url]` -> `[text](url)` (MD011).
+  - No bare URLs. Use `<http://...>` or `[text](http://...)` (MD034).
+  - No empty links `[]()` (MD042).
+  - No spaces inside link text `[ text ]` (MD039).
+- **Images:** MUST have alt text `![Alt text](image.png)` (MD045).
+- **Labels:** Reference definitions must be used if defined (MD052, MD053).
+
+## 5. Formatting & Whitespace
+- **Trailing Spaces:** Remove all trailing spaces at end of lines (MD009).
+- **Tabs:** Use spaces, not hard tabs (MD010).
+- **Blank Lines:**
+  - Max 1 consecutive blank line (MD012).
+  - File must end with exactly one newline (MD047).
+- **Emphasis:**
+  - No spaces inside emphasis markers (`** text **` -> `**text**`) (MD037).
+  - Use consistent style (asterisk `*` or underscore `_`) (MD049, MD050).
+- **Blockquotes:**
+  - One space after `>` (MD027).
+  - Separate adjacent blockquotes with some text or a `>` line (MD028).
+
+## 6. Tables
+- **Style:**
+  - Use consistent pipe style. Include leading/trailing pipes `| col | col |` (MD055).
+  - All rows must have the same number of columns (MD056).
+- **Spacing:** Surround tables with blank lines (MD058).
+
+## 7. HTML
+- Avoid inline HTML. Use pure Markdown where possible (MD033).
