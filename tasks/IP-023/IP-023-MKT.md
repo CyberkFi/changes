@@ -9,7 +9,7 @@ created: 2026-03-14
 deadline: 2026-03-31
 ---
 
-# MKT-001: Content Marketing & Quảng bá Dịch vụ Tái cấu trúc
+# IP-023-MKT: Content Marketing & Quảng bá Dịch vụ Tái cấu trúc
 
 ## Mục tiêu
 

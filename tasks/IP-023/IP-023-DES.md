@@ -9,7 +9,7 @@ created: 2026-03-14
 deadline: 2026-03-28
 ---
 
-# DES-001: Thiết kế Website & Visual Assets cho Dịch vụ Tái cấu trúc
+# IP-023-DES: Thiết kế Website & Visual Assets cho Dịch vụ Tái cấu trúc
 
 ## Mục tiêu
 

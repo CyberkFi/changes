@@ -25,18 +25,22 @@ tasks/
 ├── telegram-groups.env      ← Chat IDs cho Telegram groups
 ├── notify-task.sh           ← Script gửi task tự động
 ├── IP-023/                  ← Tasks từ IP-023 (Dịch vụ Mới)
-│   ├── DES-001.md
-│   ├── QA-001.md
-│   ├── BD-001.md
-│   ├── MKT-001.md
-│   └── DEV-001.md
-└── IP-024/                  ← Tasks từ IP-024 (Triết lý Software Design)
-    └── DEV-002.md
+│   ├── IP-023-DES.md
+│   ├── IP-023-QA.md
+│   ├── IP-023-BD.md
+│   ├── IP-023-MKT.md
+│   ├── IP-023-BST.md
+│   └── IP-023-DEV.md
+└── IP-027/                  ← Tasks từ IP-027 (Agentic AI)
+    ├── IP-027-QA.md
+    ├── IP-027-DES.md
+    ├── IP-027-DEV.md
+    └── IP-027-MKT.md
 ```
 
 ## Quy tắc đặt tên
 
-**Format:** `{DEPT}-{SỐ}.md` — ví dụ: `MKT-001.md`, `DEV-002.md`
+**Format:** `IP-{SỐ}-{DEPT}.md` — ví dụ: `IP-023-MKT.md`, `IP-027-DEV.md`
 
 ## Frontmatter chuẩn
 
@@ -54,17 +58,19 @@ deadline: 2026-03-28
 ---
 ```
 
-## Telegram Auto-notify
+## NEO — Task Assign & Follow
 
-Khi tạo task mới, gửi thông báo tự động cho nhóm tương ứng:
+Giao và theo dõi task qua Telegram bằng NEO:
 
 ```bash
-# Gửi cho từng bộ phận
-./tasks/notify-task.sh DES tasks/IP-023/DES-001.md
-./tasks/notify-task.sh QA  tasks/IP-023/QA-001.md
-./tasks/notify-task.sh BD  tasks/IP-023/BD-001.md
-./tasks/notify-task.sh MKT tasks/IP-023/MKT-001.md
-./tasks/notify-task.sh DEV tasks/IP-023/DEV-001.md
+# Giao task
+cd changes/neo-task-assign/scripts
+bun run assign.ts IP-023-MKT MKT        # giao 1 task
+bun run assign.ts IP-027-QA QA --dry-run # xem trước
+
+# Follow-up
+bun run follow.ts IP-023-MKT MKT        # follow 1 task
+bun run follow.ts IP-027 ALL             # follow tất cả task của IP
 ```
 
 ### Setup Telegram Groups

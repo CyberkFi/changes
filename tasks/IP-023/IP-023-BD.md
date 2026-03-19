@@ -9,7 +9,7 @@ created: 2026-03-14
 deadline: 2026-03-31
 ---
 
-# BD-001: Cập nhật Sales Kit & Thông báo Khách hàng về Dịch vụ Tái cấu trúc
+# IP-023-BD: Cập nhật Sales Kit & Thông báo Khách hàng về Dịch vụ Tái cấu trúc
 
 ## Mục tiêu
 

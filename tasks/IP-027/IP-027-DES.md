@@ -17,11 +17,11 @@ deadline: 2026-04-14
 ## Việc cần làm
 
 - [ ] Kể cho team nghe design AI khác design bình thường chỗ nào — UX challenges, trust issues, loading vs streaming
-- [ ] Viết lại thành bài ngắn, lưu tại `marketing/blog/`
+- [ ] Viết lại thành bài ngắn, lưu tại `articles/`
 
 ## Output
 
-- Bài viết markdown tại `marketing/blog/`
+- Bài viết markdown tại `articles/`
 - Slide seminar (PDF hoặc Google Slides)
 
 ## Tài liệu tham khảo

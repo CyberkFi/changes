@@ -9,7 +9,7 @@ created: 2026-03-17
 deadline: 2026-04-07
 ---
 
-# BST-001: Chuẩn hoá Scope Template & Quy trình Kỹ thuật cho Dịch vụ Tái cấu trúc
+# IP-023-BST: Chuẩn hoá Scope Template & Quy trình Kỹ thuật cho Dịch vụ Tái cấu trúc
 
 ## Mục tiêu
 

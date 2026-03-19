@@ -17,11 +17,11 @@ deadline: 2026-04-14
 ## Việc cần làm
 
 - [ ] Kể cho team nghe kinh nghiệm test AI — khác test bình thường chỗ nào, bug gì khó nhất, hallucination xử lý sao
-- [ ] Viết lại thành bài ngắn, lưu tại `marketing/blog/`
+- [ ] Viết lại thành bài ngắn, lưu tại `articles/`
 
 ## Output
 
-- Bài viết markdown tại `marketing/blog/`
+- Bài viết markdown tại `articles/`
 - Slide seminar (PDF hoặc Google Slides)
 
 ## Tài liệu tham khảo

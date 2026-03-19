@@ -9,7 +9,7 @@ created: 2026-03-14
 deadline: 2026-04-07
 ---
 
-# DEV-001: Cập nhật Website & Thiết lập Quy trình Product Build
+# IP-023-DEV: Cập nhật Website & Thiết lập Quy trình Product Build
 
 ## Mục tiêu
 
