@@ -81,3 +81,9 @@ Mỗi file có ghi chú nội bộ cuối trang: visual assets cần thiết, cr
   - Tất cả content đã được review: sentence case, tone authentic, tránh AI-generated vibes.
   - Bỏ yếu tố Solo Dev khỏi about-us.md (đang thử nghiệm, chưa public).
   - Còn lại: How We Build content.
+- **2026-03-20:** Cập nhật content `smart-contract-development.md`:
+  - Hero block restructure: focus Agent Economy (x402, ERC-8004, ERC-8183)
+  - Thêm layout notes cho Section 1 (Standards): gợi ý 3 layout (Accordion ⭐ / Mega-table / Tabs) — mục đích SEO, cần tinh gọn & tối giản
+  - Cập nhật task `IP-026-DES` với hướng dẫn design chi tiết, tổng hợp visual assets (P1/P2), layout recommendations
+  - Giao việc lại cho Design team
+

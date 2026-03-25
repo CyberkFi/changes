@@ -2,6 +2,7 @@
 type: strategy
 tags: [agentic-ai, agent-engineering, hybrid-ai, cyberk-way]
 ---
+//TODO: thêm kỳ vọng vào ý tưởng triển khai
 
 # Strategy 4 (S-004): Agentic AI — Trở thành Agent Engineering company
 
@@ -77,9 +78,9 @@ IP-027 ════╪═════╪═════╪═════╪═�
 
 ### Kết quả kỳ vọng cuối tháng 3
 
-- [ ] 5 trang website live (agentic, blockchain, smart-contract, about-us, how-we-build)
-- [ ] Bài CTO về Agentic Engineering publish trên gitbook
-- [ ] 3 seminar nội bộ đã tổ chức (QA, DES, DEV)
-- [ ] 3 bài viết từ bộ phận publish trên blog
-- [ ] Branding AI + Blockchain cập nhật trên Clutch, Goodfirms
-- [ ] Sitemap mới submit Google Search Console
+* [ ] 5 trang website live (agentic, blockchain, smart-contract, about-us, how-we-build)
+* [ ] Bài CTO về Agentic Engineering publish trên gitbook
+* [ ] 3 seminar nội bộ đã tổ chức (QA, DES, DEV)
+* [ ] 3 bài viết từ bộ phận publish trên blog
+* [ ] Branding AI + Blockchain cập nhật trên Clutch, Goodfirms
+* [ ] Sitemap mới submit Google Search Console

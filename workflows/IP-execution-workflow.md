@@ -25,10 +25,10 @@ tags: [cyberk-way]
 
 ## Các bước thực hiện
 
-### Bước 1 — Điền Kế hoạch triển khai (Execution Plan)
+### Bước 1 — Bổ sung Plans & Kế hoạch triển khai (Execution Plan)
 
 1. Mở file IP (`improvement/IP-[XXX]-doing.md`).
-2. Đọc phần **Plans** → chia thành các **task cụ thể**, mỗi task gán cho 1 phòng ban.
+2. Bổ sung mục **Plans (Kế hoạch hành động)** và chia thành các **task cụ thể**, mỗi task gán cho 1 phòng ban.
 3. Điền vào bảng **Kế hoạch triển khai**:
 
    | Task | Bộ phận | Mô tả | Deadline | Phụ thuộc | Trạng thái |

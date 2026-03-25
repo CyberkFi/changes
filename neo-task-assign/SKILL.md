@@ -93,3 +93,29 @@ Chat IDs: `tools/telegram-notify/src/channels.json`
 2. Tài liệu tham chiếu = GitHub links inline
 3. 1 message duy nhất per task
 4. Callback: `fu:[TASK_ID]:[done|doing|blocked|question]`
+
+## Bảo trì REPO_MAP
+
+Cả `assign.ts` và `follow.ts` có `REPO_MAP` để chuyển local path → GitHub URL.
+
+**Khi workspace thêm/đổi tên repo:** phải cập nhật `REPO_MAP` trong **cả 2 file**.
+
+Map hiện tại (folder local → GitHub repo):
+
+| Local folder | GitHub repo |
+|---|---|
+| `changes` | `CyberkFi/changes` |
+| `marketing` | `CyberkFi/marketing` |
+| `bd` | `CyberkFi/bd` |
+| `bootstrap` | `CyberkFi/bootstrap-agent` |
+| `articles` | `CyberkFi/articles` |
+| `clients` | `CyberkFi/client` |
+| `coo` | `CyberkFi/coo` |
+| `employee` | `CyberkFi/employee` |
+| `finance` | `CyberkFi/finance` |
+| `gitbook` | `cyberk-io/gitbook` |
+| `cyberk-io-static` | `cyberk-io/cyberk-pure-htmk` |
+| `cyberk-skills` | `cyberk-dev/cyberk-skills` |
+| `cyberk-librarian` | `CyberkFi/cyberk-librarian` |
+| `QA-agent` | `CyberkFi/QA-agent` |
+

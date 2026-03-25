@@ -44,9 +44,9 @@ tags: [cyberk-way]
 ### Bước 3 — Soạn thảo IP
 
 1. Dùng `workflows/IP-template.md` làm cấu trúc.
-2. Điền các mục: Mục tiêu, Lý do, Key Results, Plans, Risks.
+2. Điền các mục: Mục tiêu, Lý do, Key Results, Risks.
 3. Đặt Status = `Chưa bắt đầu`.
-4. **Không điền** Kế hoạch triển khai, Lịch theo dõi — đó thuộc giai đoạn thực thi.
+4. **Không điền** Plans (Kế hoạch hành động), Kế hoạch triển khai, Lịch theo dõi — đó thuộc giai đoạn thực thi.
 5. Lưu file.
 
 ### Bước 4 — Cập nhật Kanban Board

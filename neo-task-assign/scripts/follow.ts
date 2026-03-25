@@ -15,10 +15,21 @@ const ENV_PATH = resolve(WORKSPACE, "NEO/.env");
 const TASKS_DIR = resolve(WORKSPACE, "changes/tasks");
 
 const REPO_MAP: Record<string, string> = {
-  "internal-ws": "https://github.com/CyberkFi/internal-ws/blob/main",
+  "changes": "https://github.com/CyberkFi/changes/blob/main",
   "marketing": "https://github.com/CyberkFi/marketing/blob/main",
-  "gitbook": "https://github.com/CyberkFi/gitbook/blob/main",
   "bd": "https://github.com/CyberkFi/bd/blob/main",
+  "bootstrap": "https://github.com/CyberkFi/bootstrap-agent/blob/main",
+  "articles": "https://github.com/CyberkFi/articles/blob/main",
+  "clients": "https://github.com/CyberkFi/client/blob/main",
+  "coo": "https://github.com/CyberkFi/coo/blob/main",
+  "employee": "https://github.com/CyberkFi/employee/blob/main",
+  "finance": "https://github.com/CyberkFi/finance/blob/main",
+  "gitbook": "https://github.com/cyberk-io/gitbook/blob/main",
+  "cyberk-io-static": "https://github.com/cyberk-io/cyberk-pure-htmk/blob/main",
+  "cyberk-skills": "https://github.com/cyberk-dev/cyberk-skills/blob/main",
+  "cyberk-librarian": "https://github.com/CyberkFi/cyberk-librarian/blob/main",
+  "QA-agent": "https://github.com/CyberkFi/QA-agent/blob/main",
+  "tools": "https://github.com/CyberkFi/changes/blob/main/tools",
 };
 
 // ══════════════════════════════════
