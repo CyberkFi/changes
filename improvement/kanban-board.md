@@ -12,6 +12,7 @@ Theo dõi tiến độ thực hiện các Kế hoạch Cải tiến (Improvement
 ## ⚙️ Operations — Quy trình vận hành
 
 - [ ] **[IP-029](./IP-029-doing.md)**: Chuẩn hóa Quy trình Kick-off Dự án Mới `doing` `deadline: 20/03`
+- [ ] **[IP-031](./IP-031-doing.md)**: Tái thiết lại các cuộc họp công ty & 1-Day Sprint `todo`
 
 ## 🔥 Ưu tiên cao — Agentic (thị trường đang nóng, cần nhanh)
 
