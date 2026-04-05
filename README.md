@@ -22,13 +22,19 @@ Không gian làm việc này được thiết kế để phục vụ ba mục đ
 Workspace được tổ chức tinh gọn để tối ưu hóa sự tập trung:
 
 *   **`strategy/`**: Tầm nhìn dài hạn.
-    *   Chứa các file Chiến lược (`S-XXX-doing.md`) định hướng cho 1-3 năm.
+    *   `S-XXX-doing.md`: File Chiến lược định hướng cho 1-3 năm.
+    *   `strategies.md`: Index tất cả chiến lược.
 *   **`improvement/`**: Trái tim của sự thay đổi.
-    *   `kanban-board.md`: Bảng theo dõi trạng thái thực thi (Backlog -> To Do -> In Progress -> Done).
-    *   `improvement-plans.md`: Kho lưu trữ định nghĩa chi tiết của các IP.
-    *   `diary/`: Hộp đen ghi lại nhật ký thực thi của Agents (Logs).
+    *   `kanban-board.md`: Bảng theo dõi trạng thái thực thi.
+    *   `IP-XXX-doing.md`: File IP riêng lẻ.
+    *   `diary/`: Nhật ký thực thi của Agents.
+*   **`tasks/`**: Task files chi tiết cho từng bộ phận.
+    *   `IP-XXX/IP-XXX-DEPT.md`: Task file cho bộ phận cụ thể.
 *   **`workflows/`**: Bộ não quy trình (SOPs).
-    *   Chứa các hướng dẫn chuẩn hóa cho việc tạo Chiến lược và IP.
+    *   `ip-create/`: Quy trình tạo mới IP.
+    *   `ip-execute/`: Quy trình triển khai IP.
+    *   `st-create/`: Quy trình tạo chiến lược.
+    *   `task-create/`: Quy trình tạo task files.
 
 ## 🤖 Lực lượng Lao động (The Workforce)
 
@@ -38,10 +44,11 @@ Workspace được tổ chức tinh gọn để tối ưu hóa sự tập trung:
 
 ## 🚀 Luồng làm việc (Core Workflow)
 
-1.  **Think Big (Strategy):** CEO & Agent xác định Chiến lược trong `strategy/`.
-2.  **Start Small (IP):** Cụ thể hóa thành các Improvement Plans trong `improvement/improvement-plans.md`.
-3.  **Move Fast (Execution):** Thực thi và cập nhật trạng thái liên tục tại `improvement/kanban-board.md`.
-4.  **Traceability (Logging):** Ghi lại mọi hành động tại `improvement/diary/`.
+1.  **Think Big (Strategy):** CEO & Agent xác định Chiến lược → `workflows/st-create/st-create.md`.
+2.  **Start Small (IP):** Cụ thể hóa thành IP → `workflows/ip-create/ip-create.md`.
+3.  **Execute Fast (Execution):** Triển khai IP → `workflows/ip-execute/ip-execute.md`.
+4.  **Assign & Track:** Tạo task & theo dõi → `workflows/task-create/task-create.md` + `scheduler.csv`.
+5.  **Traceability (Logging):** Ghi lại mọi hành động tại `improvement/diary/` và `scheduler.csv`.
 
 ---
 *CyberkFi - Where Human Vision meets AI Execution.*

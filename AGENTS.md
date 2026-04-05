@@ -14,7 +14,7 @@ Tại đây, các AI Agents không chỉ là công cụ lập trình, mà đóng
 
 Mọi hành động của Agent trong workspace này đều phải xoay quanh "Tam giác Quản trị":
 
-1. **Định nghĩa (Define) - `improvement/improvement-plans.md`:**
+1. **Định nghĩa (Define) - `improvement/IP-XXX-doing.md`:**
     * Đây là "Hiến pháp". Nếu nó không được viết ở đây, nó không tồn tại.
     * Mọi thay đổi phải được định nghĩa rõ ràng: Mục tiêu, Lý do, Kết quả then chốt (Key Results).
 
@@ -22,16 +22,17 @@ Mọi hành động của Agent trong workspace này đều phải xoay quanh "T
     * Đây là "Bảng điều khiển". Nó phản ánh sự thật về trạng thái hiện tại.
     * Luôn cập nhật trạng thái ngay khi có sự thay đổi (Backlog -> To Do -> In Progress -> Done).
 
-3. **Ghi nhận (Log) - `improvement/diary/`:**
+3. **Ghi nhận (Log) - `improvement/diary/` + `scheduler.csv`:**
     * Đây là "Hộp đen". Nó lưu trữ bằng chứng thực thi để truy vết sau này.
+    * `scheduler.csv`: Single source of truth cho lịch assign, follow, review.
 
 ## 🛠️ Kỹ năng & Quy trình Cốt lõi (Core Competencies)
 
-Để vận hành workspace này, Agent cần thành thục 2 kỹ năng chính được định nghĩa trong thư mục `workflows/`:
+Để vận hành workspace này, Agent cần thành thục 4 kỹ năng chính được định nghĩa trong thư mục `workflows/`:
 
-### 1. Hoạch định Chiến lược (Strategy Creation)
+### 1. Khởi tạo Chiến lược (Strategy Creation)
 
-* **Tài liệu gốc:** `@workflows/strategy-creation-workflow.md`
+* **Tài liệu gốc:** `@workflows/st-create/st-create.md`
 * **Mô tả:** Kỹ năng tư vấn và xây dựng định hướng dài hạn (1-3 năm).
 * **Nhiệm vụ của Agent:**
   * Hỗ trợ CEO chuyển đổi tầm nhìn thành **Mục tiêu Chiến lược** và **Key Results (OKRs)**.
@@ -40,12 +41,31 @@ Mọi hành động của Agent trong workspace này đều phải xoay quanh "T
 
 ### 2. Khởi tạo Cải tiến (IP Creation)
 
-* **Tài liệu gốc:** `@workflows/IP-creation-workflow.md`
+* **Tài liệu gốc:** `@workflows/ip-create/ip-create.md`
 * **Mô tả:** Kỹ năng chuyển hóa chiến lược thành hành động cụ thể (Tactics).
 * **Nhiệm vụ của Agent:**
   * Tuân thủ tuyệt đối cấu trúc chuẩn: **Mục tiêu -> Lý do -> Key Results -> Plans -> Risks**.
   * Đảm bảo tính khả thi (Actionable) và đo lường được (Measurable).
   * Tư duy: **Start Small & Move Fast**.
+
+### 3. Triển khai IP (IP Execution)
+
+* **Tài liệu gốc:** `@workflows/ip-execute/ip-execute.md`
+* **Mô tả:** Kỹ năng thực thi IP — tạo Execution Plan, task files, và lập lịch theo dõi.
+* **Nhiệm vụ của Agent:**
+  * Đọc IP đã được hoạch định, bổ sung Plans và Execution Plan.
+  * Tạo task files cho từng bộ phận trong `tasks/IP-[XXX]/`.
+  * Thêm lịch assign/follow/review vào `scheduler.csv`.
+  * Cập nhật Kanban board và theo dõi tiến độ.
+
+### 4. Tạo Task (Task Creation)
+
+* **Tài liệu gốc:** `@workflows/task-create/task-create.md`
+* **Mô tả:** Kỹ năng tạo task files đúng tone, đúng người cho từng bộ phận.
+* **Nhiệm vụ của Agent:**
+  * Đọc IP gốc và team playbook để hiểu cách giao việc cho từng bộ phận.
+  * Tạo task files với checklist rõ ràng, output cụ thể.
+  * Giao việc qua Telegram bằng script `bun run assign.ts`.
 
 ## 📝 Quy định Ghi Nhật ký (Logging Protocol)
 

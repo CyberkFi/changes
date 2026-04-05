@@ -1,5 +1,7 @@
 ---
-description: Tạo task files cho từng bộ phận từ một IP — đảm bảo đúng người, đúng tone, đủ context
+type: workflow
+tags: [cyberk-way]
+description: Tạo task files cho từng bộ phận từ IP — đọc playbook, viết task đúng tone (BST/DEV/DES/QA/MKT), checklist rõ ràng, output cụ thể.
 ---
 
 # Task Creator Workflow

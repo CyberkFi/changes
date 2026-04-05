@@ -1,12 +1,13 @@
 ---
 type: workflow
 tags: [cyberk-way]
+description: Triển khai IP đã được hoạch định — bổ sung execution plan, tạo task files, lập lịch assign/follow/review trong scheduler.csv.
 ---
 
 # Quy trình Triển khai IP (Execution)
 
 > Workflow này tập trung vào **thực thi** — từ IP đã được hoạch định, tạo Execution Plan, task files, và lập lịch theo dõi trong scheduler tổng.
-> Điều kiện: IP đã được tạo qua `workflows/IP-creation-workflow.md`.
+> Điều kiện: IP đã được tạo qua `workflows/ip-create/ip-create.md`.
 
 ---
 
@@ -19,7 +20,7 @@ tags: [cyberk-way]
 | `tasks/IP-[XXX]/` | Folder chứa task files chi tiết |
 | `scheduler.csv` | **Lịch theo dõi tổng** — single source of truth cho assign, follow, review |
 | `improvement/diary/` | Nhật ký triển khai hằng ngày |
-| `workflows/IP-template.md` | Tham khảo format Execution Plan |
+| `workflows/ip-create/ip-template.md` | Tham khảo format Execution Plan |
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 type: workflow
 tags: [cyberk-way]
+description: Xây dựng chiến lược dài hạn (1-3 năm) — định nghĩa vision, strategic objective, key results (OKRs), và liên kết với các IP.
 ---
 
 # Quy trình Khởi tạo Chiến lược (Strategy Creation Workflow)
